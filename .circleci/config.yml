@@ -1,4 +1,4 @@
-&vse
+vse: &vse
   docker:
     - image: circleci/node:8.11.3
 
@@ -16,3 +16,4 @@ workflows:
   build:
     jobs:
       - build
+
